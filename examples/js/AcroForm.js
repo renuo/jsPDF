@@ -45,6 +45,8 @@ textField.T = "TestTextBox";
 //textField.Q = 2; // Text-Alignment
 doc.addField(textField);
 
+doc.addPage();
+
 doc.text(10, 155, 'Password:');
 var passwordField = new PasswordField();
 passwordField.Rect = [50, 150, 30, 10];
